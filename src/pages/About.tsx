@@ -32,7 +32,7 @@ const About = () => {
         </section>
 
         {/* Main About Content */}
-        <section className="py-20 px-6 bg-primary-foreground">
+        <section className="py-20 px-6 bg-gray-50">
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-16 items-center">
               <motion.div initial={{
@@ -85,7 +85,7 @@ const About = () => {
               once: true
             }} className="relative">
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-                  <img alt="Future Net Logistics LLC" src="/lovable-uploads/3bef2139-4e0b-4318-ba72-2974fdf4531b.jpg" className="w-full h-[800px] object-cover" />
+                  <img alt="Future Net Logistics LLC" className="w-full h-[500px] object-cover" src="/lovable-uploads/5393fdcb-7f92-46b2-81be-d1997d8dc3a6.jpg" />
                 </div>
               </motion.div>
             </div>
