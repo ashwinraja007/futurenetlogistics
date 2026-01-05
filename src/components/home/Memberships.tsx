@@ -47,7 +47,7 @@ const Memberships = () => {
         delay: 0.2
       }} viewport={{
         once: true
-      }} className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
+      }} className="flex flex-wrap justify-center items-center gap-8 md:gap-12 bg-primary-foreground shadow-none">
           {certifications.map((cert, index) => <motion.div key={index} initial={{
           opacity: 0,
           scale: 0.9
@@ -59,7 +59,7 @@ const Memberships = () => {
           delay: index * 0.1
         }} viewport={{
           once: true
-        }} className="bg-white p-4 transition-shadow shadow-none">
+        }} className="p-4 transition-shadow shadow-none bg-primary-foreground">
               <img src={cert.src} alt={cert.alt} className="h-16 md:h-20 w-auto object-contain" />
             </motion.div>)}
         </motion.div>
