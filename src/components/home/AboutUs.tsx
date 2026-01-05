@@ -80,7 +80,7 @@ const AboutUs = () => {
       <ExcellentSolution />
 
       {/* Memberships & Certifications */}
-      <Memberships className="text-primary-foreground" />
+      <Memberships className="text-primary-foreground bg-primary-foreground" />
     </>;
 };
 export default AboutUs;
