@@ -14,12 +14,12 @@ const ExcellentSolution = () => {
     title: "Cost-Effective",
     description: "Continuously providing cost-effective transportation and logistics solutions"
   }, {
-    icon: <Globe className="w-8 h-8 text-primary" />,
+    icon: <Globe className="w-8 h-8 text-secondary-foreground" />,
     title: "Global Network",
     description: "Extensive network of carefully selected business partners worldwide"
   }];
   return <section className="py-16 bg-gradient-to-br from-brand-navy to-brand-navy/90">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-secondary-foreground">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Image */}
           <motion.div initial={{
