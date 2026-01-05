@@ -81,7 +81,7 @@ const ThreePL = () => {
               </h2>
               <div className="w-24 h-1 bg-brand-green mx-auto mb-8"></div>
               <p className="text-gray-700 mb-6 text-justify">
-                Arabian Future Net offers complete third-party logistics (3PL) services designed to streamline your supply chain operations. We manage the entire logistics process from warehousing and inventory management to order fulfillment and distribution.
+                Future Net offers complete third-party logistics (3PL) services designed to streamline your supply chain operations. We manage the entire logistics process from warehousing and inventory management to order fulfillment and distribution.
               </p>
               <p className="text-gray-700 mb-6 text-justify">
                 Our 3PL solutions are tailored to meet the unique needs of each client, providing flexibility, scalability, and cost-effectiveness. We leverage advanced technology and industry expertise to optimize your logistics operations.

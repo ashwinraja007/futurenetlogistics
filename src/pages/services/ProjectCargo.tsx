@@ -34,7 +34,7 @@ const ProjectCargo = () => {
               }} transition={{
                 duration: 0.5,
                 delay: 0.1
-              }} className="text-lg text-gray-700 mb-6">At Arabian Future Net Shipping Company, we specialize in managing project cargo—the transportation of large, heavy, high-value, or complex pieces of equipment and materials essential to major infrastructure, engineering, or industrial projects.Our expertise ensures that these shipments receive the customized handling, multimodal transport solutions, and precise coordination needed to meet strict timelines and safety standards.</motion.p>
+              }} className="text-lg text-gray-700 mb-6">At Future Net, we specialize in managing project cargo—the transportation of large, heavy, high-value, or complex pieces of equipment and materials essential to major infrastructure, engineering, or industrial projects.Our expertise ensures that these shipments receive the customized handling, multimodal transport solutions, and precise coordination needed to meet strict timelines and safety standards.</motion.p>
                 <motion.div initial={{
                 opacity: 0,
                 y: 20
@@ -160,7 +160,7 @@ const ProjectCargo = () => {
                     <Shield className="h-8 w-8 text-brand-gold mr-3" />
                     <h3 className="text-xl font-semibold text-gray-800">Regulatory Complexity</h3>
                   </div>
-                  <p className="text-gray-600 text-justify">Arabian Future Net Shipping Company manages permits, route surveys, customs clearance, and coordination with local authorities to navigate the complexities of international logistics.</p>
+                  <p className="text-gray-600 text-justify">Future Net manages permits, route surveys, customs clearance, and coordination with local authorities to navigate the complexities of international logistics.</p>
                 </motion.div>
               </div>
             </div>
@@ -185,7 +185,7 @@ const ProjectCargo = () => {
           }} className="bg-gradient-to-r from-primary to-green-700 rounded-xl text-white p-8 text-center">
               <h3 className="text-2xl md:text-3xl font-bold mb-4 text-slate-50">LET US MOVE YOUR PROJECT FORWARD</h3>
               <p className="mb-6 text-green-50 max-w-3xl mx-auto">
-                From the first mile to the final lift, Arabian Future Net is your strategic partner in project cargo and international logistics. Our team of project specialists will work closely with you to plan every detail, ensure compliance, and execute a seamless delivery.
+                From the first mile to the final lift, Future Net is your strategic partner in project cargo and international logistics. Our team of project specialists will work closely with you to plan every detail, ensure compliance, and execute a seamless delivery.
               </p>
               <Link to="/contact" className="inline-block bg-white text-primary px-8 py-3 rounded-lg font-medium hover:bg-green-50 transition-colors">
                 Get a Quote

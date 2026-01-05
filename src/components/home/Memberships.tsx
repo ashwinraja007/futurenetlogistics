@@ -1,6 +1,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-const Memberships = () => {
+import { cn } from '@/lib/utils';
+
+interface MembershipsProps {
+  className?: string;
+}
+
+const Memberships = ({ className }: MembershipsProps) => {
   const certifications = [{
     src: "/certifications/wca.png",
     alt: "WCA World - Leading the World in Logistics Partnering"
@@ -17,7 +23,7 @@ const Memberships = () => {
     src: "/certifications/sck.png",
     alt: "SCK Certifications"
   }];
-  return <section className="py-12 bg-gray-50">
+  return <section className={cn("py-12 bg-gray-50", className)}>
       <div className="container mx-auto px-4">
         <motion.div initial={{
         opacity: 0,
