@@ -15,7 +15,7 @@ const VisionMission = () => {
           >
             <div className="flex items-center gap-3 mb-3">
               <Eye className="w-7 h-7 text-white" />
-              <h3 className="text-xl font-bold text-white">01 Vision</h3>
+              <h3 className="text-xl font-bold text-white">Vision</h3>
             </div>
             <p className="text-white/90 text-sm">
               FUTURE NET, to be the leading global logistics solution provider thru our most advanced systems combined with well experienced logistics professionals.
@@ -31,7 +31,7 @@ const VisionMission = () => {
           >
             <div className="flex items-center gap-3 mb-3">
               <Target className="w-7 h-7 text-white" />
-              <h3 className="text-xl font-bold text-white">02 Mission</h3>
+              <h3 className="text-xl font-bold text-white">Mission</h3>
             </div>
             <p className="text-white/90 text-sm">
               FUTURE NET, to be customers first choice for following services: Customised logistics solutions with integrated processes with clients thru our most advanced WMS & distribution module with e-commerce capability. FCL, LCL, Air Freight & Freight Management, Liquid Transportation solutions Projects & Break Bulk.
