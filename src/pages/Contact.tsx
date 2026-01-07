@@ -99,7 +99,7 @@ const Contact = () => {
         
       </main>
 
-      <QuickEnquiry className="bg-secondary-foreground" />
+      <QuickEnquiry />
       <Footer />
     </div>;
 };

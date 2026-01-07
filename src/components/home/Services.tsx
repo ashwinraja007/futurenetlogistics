@@ -138,6 +138,14 @@ export const Services = () => {
         "End-to-end third-party logistics solutions including warehousing, distribution, and supply chain management.",
       icon: <Warehouse />,
       link: "/services/3pl"
+    },
+    {
+      image: "/lovable-uploads/liquid.jpg",
+      title: "Liquid Transportation",
+      description:
+        "Specialized transportation solutions for liquid cargo including ISO tanks, flexi-bags, and bulk liquid logistics.",
+      icon: <Package />,
+      link: "/services/liquid-transportation"
     }
   ];
 

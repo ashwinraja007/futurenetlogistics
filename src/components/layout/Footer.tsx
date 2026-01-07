@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from "framer-motion";
-import { MapPin, Phone, Mail, ArrowLeft, ArrowRight, Plane, Ship, Truck, Warehouse, Package, FileCheck, Boxes } from "lucide-react";
+import { MapPin, Phone, Mail, ArrowLeft, ArrowRight, Plane, Ship, Truck, Warehouse, Package, FileCheck, Boxes, Droplets } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 
@@ -32,6 +32,7 @@ export const Footer = () => {
     { title: "Warehousing", link: "/services/warehousing", icon: <Warehouse size={16} /> },
     { title: "Project Cargo", link: "/services/project-cargo", icon: <Package size={16} /> },
     { title: "3PL Services", link: "/services/3pl", icon: <Boxes size={16} /> },
+    { title: "Liquid Transportation", link: "/services/liquid-transportation", icon: <Droplets size={16} /> },
   ];
 
   const [index, setIndex] = useState(0);
@@ -60,6 +61,15 @@ export const Footer = () => {
                 info@futurenetlogistics.com
               </a>
             </div>
+            <a
+              href="/documents/DMA_Tariff.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 mt-4 px-4 py-2 bg-green-600 hover:bg-green-700 text-white font-medium rounded-lg transition-colors text-sm"
+            >
+              <FileCheck size={16} />
+              DMA Tariff
+            </a>
           </div>
 
           {/* Services Grid */}
