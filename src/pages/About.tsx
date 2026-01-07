@@ -32,7 +32,7 @@ const About = () => {
         </section>
 
         {/* Main About Content */}
-        <section className="py-20 px-6 bg-gray-50">
+        <section className="py-20 px-6 bg-primary-foreground">
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-16 items-center">
               <motion.div initial={{
