@@ -4,30 +4,40 @@ import { Footer } from "@/components/layout/Footer";
 import { motion } from "framer-motion";
 import { Phone, Mail, MapPin } from "lucide-react";
 import QuickEnquiry from "@/components/home/QuickEnquiry";
-const offices = [{
-  city: "Dubai Office",
-  address: "Office # 509, Al Nazar Plaza, Oud Metha, Dubai, U.A.E",
-  phone: "+971 4 3433338",
-  mobile: "+971 52 4436740",
-  email: "inquiries@futurenetlogistics.com",
-  map: "https://www.google.com/maps/d/embed?mid=1D4N0vC2-Se7EH9iVJi2cp5_EeVqEH40&ehbc=2E312F&noprof=1"
-}, {
-  city: "Jebel Ali Office",
-  address: "Warehouse# Zg06, Near Roundabout 13, North Zone, P.B No: 30821, Jebel Ali, Dubai, U.A.E",
-  phone: "+971 4 8819787",
-  mobile: "+971 50 5075187 / +971 55 3877366",
-  email: "info@futurenetlogistics.com",
-  map: "https://www.google.com/maps/d/embed?mid=1k7Ufg8mYdAYhS3Oue398UVcgRDq2LMI&ehbc=2E312F&noprof=1"
-}, {
-  city: "Abu Dhabi Office",
-  address: "PB No: 30500, Office 3-1, Unit 101, 1st Floor, Al Jaber Jewellery Building, Al Khalidiya, Abu Dhabi, U.A.E.",
-  phone: "+971 2 8867676",
-  mobile: "+971 50 4337214",
-  email: "info@futurenetlogistics.com",
-  map: "https://www.google.com/maps/d/embed?mid=1D0XIvUvTkX_zFe-9J-Rm-4jdUrQXMbM&ehbc=2E312F&noprof=1"
-}];
+
+const offices = [
+  {
+    city: "Dammam (Headquarter)",
+    cr: "CR No: 2050159935",
+    address:
+      "Building No.2817, Secondary No9403, King Faisal Road, Al Tubebayshi Dist., Dammam, KSA 32233",
+    phone: "+966 13 343 0003",
+    email: "info.sa@futurenetlogistics.com",
+    map: "https://www.google.com/maps/d/embed?mid=1PGeR21X0gkhMgwbEQ1wziKMNJxtPLtA&ehbc=2E312F&noprof=1",
+  },
+  {
+    city: "Riyadh",
+    cr: "CR No: 1010867642",
+    address:
+      "Room No. T18, Rail Business Centre, Bldg No. 3823, Omar Aimukhtar St, Thulaim, Riyadh 11332",
+    phone: "+966 11295 0020",
+    email: "info.sa@futurenetlogistics.com",
+    map: "https://www.google.com/maps/d/embed?mid=1FX9YaRjZDnKIpTb7ysNk8hs42t0m8kQ&ehbc=2E312F&noprof=1",
+  },
+  {
+    city: "Jeddah",
+    cr: "CR No: 4030498909",
+    address:
+      "Room No: 408, Saudi Business Centre 7859, Al-Madinah Al-Munawarah Road, Al Sharafeyah, Jeddah 4542-22234",
+    phone: "+966 12 578 0874",
+    email: "info.sa@futurenetlogistics.com",
+    map: "https://www.google.com/maps/d/embed?mid=1nCIw5f2uLw0g_6L6jZDYZRKv8IXf_2M&ehbc=2E312F&noprof=1",
+  },
+];
+
 const Contact = () => {
-  return <div className="min-h-screen flex flex-col bg-gray-50">
+  return (
+    <div className="min-h-screen flex flex-col bg-gray-50">
       <Header />
 
       <main className="flex-grow">
@@ -39,7 +49,7 @@ const Contact = () => {
               Contact Us
             </h1>
             <p className="text-white/90 max-w-2xl mx-auto text-lg">
-              Reach out or visit any of our offices across UAE
+              Reach out or visit any of our offices across Saudi Arabia
             </p>
           </div>
         </section>
@@ -47,22 +57,21 @@ const Contact = () => {
         {/* OFFICES */}
         <section className="py-16">
           <div className="container mx-auto px-4 space-y-12">
-            {offices.map((office, index) => <motion.div key={index} initial={{
-            opacity: 0,
-            y: 20
-          }} whileInView={{
-            opacity: 1,
-            y: 0
-          }} viewport={{
-            once: true
-          }} transition={{
-            duration: 0.6
-          }} className="bg-white rounded-xl shadow-md p-6 grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {offices.map((office, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6 }}
+                className="bg-white rounded-xl shadow-md p-6 grid grid-cols-1 lg:grid-cols-2 gap-8"
+              >
                 {/* LEFT – ADDRESS */}
                 <div>
-                  <h2 className="text-2xl font-bold text-brand-navy mb-4">
+                  <h2 className="text-2xl font-bold text-brand-navy mb-1">
                     {office.city}
                   </h2>
+                  <p className="text-sm text-gray-500 mb-4">{office.cr}</p>
 
                   <div className="flex items-start gap-2 mb-3">
                     <MapPin size={18} className="text-brand-green mt-1" />
@@ -73,35 +82,34 @@ const Contact = () => {
 
                   <div className="flex items-center gap-2 mb-3">
                     <Phone size={18} className="text-brand-green" />
-                    <p className="text-gray-600">Tel: {office.phone}</p>
+                    <p className="text-gray-600">{office.phone}</p>
                   </div>
-
-                  {office.mobile && <div className="flex items-center gap-2 mb-3 ml-6">
-                      <p className="text-gray-600">Mob: {office.mobile}</p>
-                    </div>}
 
                   <div className="flex items-center gap-2">
                     <Mail size={18} className="text-brand-green" />
-                    <a href={`mailto:${office.email}`} className="text-gray-600 hover:text-brand-green transition-colors">
-                      {office.email}
-                    </a>
+                    <p className="text-gray-600">{office.email}</p>
                   </div>
                 </div>
 
                 {/* RIGHT – MAP */}
-                <div className="map-wrapper border rounded-lg overflow-hidden">
-                  <iframe src={office.map} className="w-full h-[300px]" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                <div className="map-wrapper border">
+                  <iframe
+                    src={office.map}
+                    className="map-iframe"
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                  />
                 </div>
-              </motion.div>)}
+              </motion.div>
+            ))}
           </div>
         </section>
-
-        {/* Contact Summary */}
-        
       </main>
 
       <QuickEnquiry />
       <Footer />
-    </div>;
+    </div>
+  );
 };
+
 export default Contact;
