@@ -93,9 +93,7 @@ export const Footer = () => {
             </p>
 
             <div className="flex items-center gap-3 text-sm">
-              <div className="bg-brand-green/20 p-2 rounded-full">
-              
-              </div>
+
 
             </div>
 
