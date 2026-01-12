@@ -77,7 +77,7 @@ const Contact = () => {
                     </p>
                   </div>
 
-                  {/* TEL – only for non-Dubai offices */}
+                  {/* TEL – only where available */}
                   {office.phone && (
                     <div className="flex items-center gap-2 mb-3">
                       <Phone size={18} className="text-brand-green" />
@@ -85,9 +85,10 @@ const Contact = () => {
                     </div>
                   )}
 
-                  {/* MOBILE */}
+                  {/* MOBILE – Dubai included with icon */}
                   {office.mobile && (
-                    <div className="flex items-center gap-2 mb-3 ml-6">
+                    <div className="flex items-center gap-2 mb-3">
+                      <Phone size={18} className="text-brand-green" />
                       <p className="text-gray-600">Mob: {office.mobile}</p>
                     </div>
                   )}
