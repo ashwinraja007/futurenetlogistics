@@ -96,12 +96,7 @@ export const Footer = () => {
               <div className="bg-brand-green/20 p-2 rounded-full">
                 <Mail size={16} className="text-brand-green" />
               </div>
-              <a
-                href="mailto:inquiries@futurenetlogistics.com"
-                className="text-gray-300 hover:text-brand-green transition-colors"
-              >
-                inquiries@futurenetlogistics.com
-              </a>
+
             </div>
 
             <a
