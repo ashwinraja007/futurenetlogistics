@@ -7,7 +7,7 @@ import QuickEnquiry from "@/components/home/QuickEnquiry";
 const offices = [{
   city: "Dubai Office",
   address: "Office # 509, Al Nazar Plaza, Oud Metha, Dubai, U.A.E",
-  phone: "+971524436740",
+  phone: "+971 52 4436740",
   email: "inquiries@futurenetlogistics.com",
   map: "https://www.google.com/maps/d/embed?mid=1D4N0vC2-Se7EH9iVJi2cp5_EeVqEH40&ehbc=2E312F&noprof=1"
 }, {
