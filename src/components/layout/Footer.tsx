@@ -22,7 +22,7 @@ export const Footer = () => {
     {
       city: "Dubai Office",
       address: ["Office # 509, Al Nazar Plaza", "Oud Metha, Dubai, U.A.E"],
-      phone: "+971524436740",
+      phone: "+971 52 4436740",
     },
     {
       city: "Jebel Ali Office",
