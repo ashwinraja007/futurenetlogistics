@@ -94,7 +94,7 @@ export const Footer = () => {
 
             <div className="flex items-center gap-3 text-sm">
               <div className="bg-brand-green/20 p-2 rounded-full">
-                <Mail size={16} className="text-brand-green" />
+              
               </div>
 
             </div>
