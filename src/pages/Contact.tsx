@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { Phone, Mail, MapPin } from "lucide-react";
 import QuickEnquiry from "@/components/home/QuickEnquiry";
 
-const offices = [
 const offices = [{
   city: "Dubai Office",
   address: "Office # 509, Al Nazar Plaza, Oud Metha, Dubai, U.A.E",
