@@ -30,7 +30,7 @@ const slides = [
 ];
 
 const portalLinks = [
-  { icon: <Users className="w-5 h-5" />, title: 'Consolmate', url: 'https://consolmate.com/auth/login/7', external: true },
+  { icon: <Users className="w-5 h-5" />, title: 'Customer Portal', url: 'https://consolmate.com/auth/login/7', external: true },
   { icon: <UserCircle className="w-5 h-5" />, title: 'Partner Portal', url: 'https://pp.onlinetracking.co/auth/login/7', external: true },
   { icon: <SearchCode className="w-5 h-5" />, title: 'Tracking', url: 'http://ec2-13-229-38-56.ap-southeast-1.compute.amazonaws.com:8081/ords/f?p=107:102:::::P0_GROUP_RID:193', external: true },
   { icon: <Ship className="w-5 h-5" />, title: 'Sailing Schedule', url: 'http://ec2-13-229-38-56.ap-southeast-1.compute.amazonaws.com:8081/ords/f?p=107:104:::::P0_GROUP_RID:193', external: true },
