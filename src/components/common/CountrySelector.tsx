@@ -36,7 +36,7 @@ const countries: CountryData[] = [
   { country: "UAE", company: "FNL", website: "https://https://www.futurenetlogistics.com/", priority: 13, flag: "/ae.svg", slug: "uae" },
   { country: "SAUDI ARABIA", company: "AFNL", website: "https://arabianfuturenet.com/", priority: 12, flag: "/sa.svg", slug: "saudi-arabia" },
   { country: "USA", company: "GGL", website: "https://gglusa.us/", priority: 14, flag: "/us.svg", slug: "usa" },
-  { country: "UK", company: "Moltech", website: "https://moltech.uk/", priority: 15, flag: "/gb.svg", slug: "uk" },
+  { country: "UK", company: "GGL", website: "https://ggl.sg/uk", priority: 15, flag: "/gb.svg", slug: "uk" },
 ];
 
 const CountrySelector = () => {
