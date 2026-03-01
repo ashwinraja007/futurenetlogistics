@@ -17,14 +17,14 @@ const offices = [{
   address: "Warehouse# Zg06, Near Roundabout 13, North Zone, P.B No: 30821, Jebel Ali, Dubai, U.A.E",
   phone: "+971 4 8819787",
   mobile: "+971 50 5075187 / +971 55 3877366",
-  email: "info@futurenetlogistics.com",
+  email: "inquiries@futurenetlogistics.com",
   map: "https://www.google.com/maps/d/embed?mid=1k7Ufg8mYdAYhS3Oue398UVcgRDq2LMI&ehbc=2E312F&noprof=1"
 }, {
   city: "Abu Dhabi Office",
   address: "PB No: 30500, Office 3-1, Unit 101, 1st Floor, Al Jaber Jewellery Building, Al Khalidiya, Abu Dhabi, U.A.E.",
   phone: "+971 2 8867676",
   mobile: "+971 50 4337214",
-  email: "info@futurenetlogistics.com",
+  email: "inquiries@futurenetlogistics.com",
   map: "https://www.google.com/maps/d/embed?mid=1D0XIvUvTkX_zFe-9J-Rm-4jdUrQXMbM&ehbc=2E312F&noprof=1"
 }];
 
